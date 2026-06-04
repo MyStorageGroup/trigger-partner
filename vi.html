@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="assets/favicon-mystorage.jpg">
+    <link rel="shortcut icon" href="assets/favicon-mystorage.jpg">
+    <link rel="apple-touch-icon" href="assets/favicon-mystorage.jpg">
+
+    <!-- SEO -->
+    <title>Chương Trình Trigger Partner | Hợp Tác Cùng MyStorage B2B</title>
+    <meta name="description" content="Tham gia Chương Trình Trigger Partner của MyStorage và nhận hoa hồng ổn định khi giới thiệu khách hàng sử dụng dịch vụ lưu kho B2B. Không phí khởi tạo, hỗ trợ tận tâm. Giải pháp lưu trữ số 1 Việt Nam.">
+    <meta name="keywords" content="đối tác lưu kho B2B, chương trình giới thiệu Việt Nam, hoa hồng lưu trữ, MyStorage đối tác, kho lưu trữ TP HCM, giới thiệu lưu kho doanh nghiệp">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="MyStorage Vietnam">
+    <link rel="canonical" href="https://mystorage.vn/trigger-partner-vi">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mystorage.vn/trigger-partner-vi">
+    <meta property="og:title" content="Chương Trình Trigger Partner | Hợp Tác Cùng MyStorage">
+    <meta property="og:description" content="Tích hợp giải pháp lưu kho B2B vào quy trình phục vụ khách hàng. Nhận hoa hồng ổn định mà không cần đầu tư hạ tầng. Giải pháp lưu trữ số 1 Việt Nam.">
+    <meta property="og:image" content="assets/self-storage-in-ho-chi-minh-city.JPG">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="MyStorage Vietnam">
+    <meta property="og:locale" content="vi_VN">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Chương Trình Trigger Partner | Hợp Tác Cùng MyStorage">
+    <meta name="twitter:description" content="Tích hợp giải pháp lưu kho B2B vào quy trình phục vụ khách hàng. Nhận hoa hồng ổn định mà không cần đầu tư hạ tầng.">
+    <meta name="twitter:image" content="assets/self-storage-in-ho-chi-minh-city.JPG">
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Noto+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <style>
+        :root {
+            --brand-blue: #0b345a;
+            --brand-blue-light: #0c73b8;
+            --brand-orange: #ff8a3d;
+        }
+
+        * { font-family: 'Noto Sans', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+        h1, h2, h3, .font-condensed { font-family: 'Roboto Condensed', 'Noto Sans', sans-serif; }
+
+        html { font-size: 16px; }
+        body { font-size: 1rem; background-color: #faf8ff; color: #212529; }
+
+        h1 { font-size: clamp(30px, 6.2vw, 56px); line-height: 1.04; letter-spacing: -0.6px; font-weight: 700; }
+        h2 { font-size: clamp(20px, 3.2vw, 32px); line-height: 1.15; }
+        h3 { font-size: 1.05rem; line-height: 1.25; }
+
+        .material-symbols-outlined {
+            font-family: 'Material Symbols Outlined';
+            display: inline-block;
+            line-height: 1;
+            font-variation-settings: 'FILL' 0, 'wght' 500, 'GRAD' 0, 'opsz' 48;
+        }
+
+        /* ── Header ── */
+        nav {
+            box-shadow: 0 2px 12px rgba(0,0,0,0.0);
+            border-bottom: 1px solid rgba(255,255,255,0.10);
+            transition: background-color 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+            will-change: background-color;
+            transform: translateZ(0);
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        nav .nav-inner {
+            height: 72px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1.5rem;
+        }
+        .header-link {
+            color: white;
+            font-family: 'Noto Sans', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            text-decoration: none;
+            transition: color 0.2s ease;
+            white-space: nowrap;
+        }
+        .header-link:hover { color: #ff914d; }
+        .header-phone {
+            color: white;
+            font-family: 'Noto Sans', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            letter-spacing: 0.04em;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: color 0.2s ease;
+        }
+
+        @media (min-width: 1024px) {
+            nav.nav-scrolled {
+                background-color: #ffffff !important;
+                box-shadow: 0 2px 20px rgba(0,0,0,0.10);
+                border-bottom-color: rgba(0,0,0,0.07);
+            }
+            nav.nav-scrolled .header-link  { color: #1a1a2e; }
+            nav.nav-scrolled .header-link:hover { color: #ff914d; }
+            nav.nav-scrolled .header-phone { color: #1a1a2e; }
+            nav.nav-scrolled .lang-btn     { color: #1a1a2e; }
+        }
+
+        nav a, nav button {
+            transform: none !important;
+            box-shadow: none !important;
+            outline-offset: 2px;
+        }
+        nav a:hover, nav button:hover,
+        nav a:focus, nav button:focus {
+            transform: none !important;
+            box-shadow: none !important;
+        }
+        .header-button { box-shadow: none !important; transition: background-color 0.2s ease !important; }
+        .header-actions { display: flex; align-items: center; gap: 1.2rem; }
+        .header-button {
+            background-color: #ff914d;
+            color: white;
+            font-family: 'Noto Sans', sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            border-radius: 9999px;
+            padding: 0.85rem 1.5rem;
+            letter-spacing: 0.08em;
+            transition: background-color 0.2s ease;
+            min-width: 152px;
+            text-align: center;
+        }
+        .header-button:hover { background-color: #ff7f36; }
+        .header-logo {
+            position: relative;
+            display: inline-block;
+            width: 180px;
+            height: 54px;
+            flex-shrink: 0;
+        }
+        .header-logo img {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            height: 54px;
+            width: auto;
+            max-width: 180px;
+            object-fit: contain;
+            transition: opacity 0.3s ease;
+        }
+        #logo-white { opacity: 1; pointer-events: auto; }
+        #logo-color { opacity: 0; pointer-events: none; }
+        @media (min-width: 1024px) {
+            nav.nav-scrolled #logo-white { opacity: 0; pointer-events: none; }
+            nav.nav-scrolled #logo-color { opacity: 1; pointer-events: auto; }
+        }
+        .header-nav { display: flex; align-items: center; justify-content: flex-end; gap: 2.3rem; margin-left: auto; }
+        .header-nav .header-link { font-size: 17px; }
+
+        /* ── Language switcher ── */
+        .lang-switcher { position: relative; }
+        .lang-switcher:hover .lang-drop,
+        .lang-switcher.open .lang-drop { opacity: 1; visibility: visible; transform: translateY(0); pointer-events: auto; }
+        .lang-drop {
+            position: absolute;
+            top: calc(100% + 10px);
+            right: 0;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.13);
+            overflow: hidden;
+            min-width: 148px;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-6px);
+            transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s;
+            z-index: 300;
+        }
+        .lang-drop a {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 16px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: #1a1a2e;
+            text-decoration: none;
+            transition: background 0.15s;
+            white-space: nowrap;
+        }
+        .lang-drop a:hover { background: #f0f7ff; color: #0c73b8; }
+        .lang-drop a.active { background: #f0f7ff; font-weight: 700; }
+
+        /* ── Dropdowns ── */
+        .nav-item { position: relative; }
+        .nav-item:hover .nav-dropdown { opacity: 1; visibility: visible; transform: translateY(0); pointer-events: auto; }
+        .nav-dropdown {
+            position: absolute;
+            top: calc(100% + 10px);
+            min-width: 240px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.13);
+            padding: 10px 0;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-8px);
+            transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s;
+            z-index: 200;
+        }
+        .nav-dropdown::before {
+            content: '';
+            position: absolute;
+            top: -6px;
+            border-left: 7px solid transparent;
+            border-right: 7px solid transparent;
+            border-bottom: 7px solid #fff;
+        }
+        .nav-dropdown.dd-left  { left: 0; }
+        .nav-dropdown.dd-left::before  { left: 18px; }
+        .nav-dropdown.dd-center { left: 50%; margin-left: -120px; }
+        .nav-dropdown.dd-center::before { left: 50%; margin-left: -7px; }
+        .nav-dropdown.dd-right { right: 0; left: auto; }
+        .nav-dropdown.dd-right::before { right: 18px; left: auto; }
+        .nav-dropdown a {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 13px 22px;
+            font-size: 0.9rem;
+            color: #0c73b8;
+            font-family: 'Noto Sans', sans-serif;
+            font-weight: 400;
+            text-decoration: none;
+            transition: background 0.15s ease, color 0.15s ease;
+            line-height: 1.4;
+            white-space: nowrap;
+        }
+        .nav-dropdown a:hover { background: #f0f7ff; color: #ff914d; }
+        .nav-dropdown a .dd-icon { flex-shrink: 0; }
+        nav.nav-scrolled .nav-item:hover .header-link { color: #ff914d; }
+
+        /* ── Hero ── */
+        .hero-section { min-height: 530px; }
+        .hero-card {
+            width: min(100%, 874px);
+            padding: 3.25rem 2.5rem;
+            border-radius: 36px;
+            border: 1px solid rgba(255,255,255,0.12);
+            background: rgba(9, 36, 75, 0.92);
+            color: #ffffff;
+            box-shadow: 0 36px 110px rgba(0,0,0,0.28);
+            backdrop-filter: blur(14px);
+        }
+        .hero-card h1 { font-size: 50px; line-height: 1.04; letter-spacing: -0.75px; margin-bottom: 0.85rem; color: #ffffff; }
+        .hero-card p { font-size: 1rem; line-height: 1.95; color: rgba(255,255,255,0.84); max-width: 560px; margin-inline: auto; }
+        .hero-card small { font-size: 0.78rem; letter-spacing: 0.18em; text-transform: uppercase; color: #ff914d; }
+        .hero-card .hero-accent { color: #ff914d; }
+        .hero-button { padding: 1rem 2.2rem; font-size: 0.95rem; border-radius: 14px; }
+
+        /* ── Steps ── */
+        .step-card {
+            border-radius: 1.5rem;
+            background: rgba(255,255,255,0.96);
+            border: 1px solid rgba(15,23,42,0.06);
+            box-shadow: 0 20px 60px rgba(15,23,42,0.04);
+            padding: 1.85rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.95rem;
+            min-height: 248px;
+        }
+        .step-icon-wrap { width: 70px; height: 70px; border-radius: 9999px; background: rgba(255,138,61,0.15); display: grid; place-items: center; }
+        .step-icon { font-size: 34px; color: var(--brand-orange); }
+        .step-card h3 { font-size: 20px; font-weight: 700; color: #0f2044; margin-bottom: 0.25rem; }
+        .step-card p { color: #5d6778; font-size: 0.92rem; line-height: 1.85; }
+
+        .card-elevated { background: white; border-radius: 12px; padding: 28px; box-shadow: 0 6px 18px rgba(16,24,40,0.08); }
+
+        .btn-primary { background-color: #0275bc; color: white; padding: 12px 24px; font-weight: 700; font-size: 14px; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.12); transition: transform 0.2s ease, box-shadow 0.2s ease; }
+        .btn-primary:hover { background-color: #0a63a0; transform: translateY(-1px); }
+        .btn-secondary { background-color: #ff914d; color: white; padding: 12px 24px; font-weight: 700; font-size: 14px; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.12); transition: transform 0.2s ease, box-shadow 0.2s ease; }
+        .btn-secondary:hover { background-color: #ff7f36; transform: translateY(-1px); }
+
+        .brand-heading { color: #0275bc; }
+        .primary-heading { color: #0275bc; font-size: 20px; font-weight: 700; line-height: 1.15; }
+
+        /* ── Footer ── */
+        footer { font-family: 'Noto Sans', sans-serif; font-size: 16px; }
+        .footer-logo img { max-height: 54px; width: auto; display: block; }
+        .footer-column-heading { font-family: 'Roboto Condensed', sans-serif; font-size: 16px; font-weight: 700; letter-spacing: 0.04em; margin-bottom: 1rem; text-transform: uppercase; }
+        .footer-body-text, footer .footer-links a, footer p, footer .text-sm, footer .text-xs { font-family: 'Noto Sans', sans-serif; font-size: 16px; color: rgba(255,255,255,0.9); line-height: 24px; }
+        .footer-contact-row { border-top: 1px solid rgba(255,255,255,0.18); padding-top: 2rem; margin-top: 2rem; }
+        .footer-socials a { width: 44px; height: 44px; border-radius: 9999px; background: rgba(255,255,255,0.12); display: inline-flex; align-items: center; justify-content: center; transition: background 0.2s ease; }
+        .footer-socials a:hover { background: rgba(255,255,255,0.24); }
+        .footer-brand-row { border-top: 1px solid rgba(255,255,255,0.15); padding-top: 2rem; margin-top: 2rem; }
+        .footer-badge-box { display: flex; align-items: center; justify-content: center; }
+        .footer-badge-box img { max-height: 52px; width: auto; object-fit: contain; }
+        .footer-copy { color: rgba(255,255,255,0.72); }
+
+        @media (max-width: 1024px) {
+            .hero-section { min-height: 517px; padding-top: 28px; padding-bottom: 24px; }
+            .hero-card { width: min(100%, 98vw); padding: 2.5rem 1.75rem; }
+            .hero-card h1 { font-size: 42px; text-align: center; }
+        }
+        @media (max-width: 768px) {
+            .hero-section { min-height: 435px; padding-top: 24px; padding-bottom: 22px; }
+            .hero-card { width: 100%; padding: 2rem 1.5rem; }
+            .hero-card h1 { font-size: 34px; text-align: center; }
+            .hero-button { width: 100%; padding: 0.9rem; display: inline-block; }
+            .step-card { min-height: auto; padding: 1.5rem; }
+            .step-icon-wrap { width: 68px; height: 68px; }
+            .step-icon { font-size: 28px; }
+        }
+        @media (max-width: 640px) {
+            .hero-section { min-height: 381px; padding-top: 20px; padding-bottom: 20px; }
+            .hero-card { max-width: 414px; padding: 1.75rem 1.25rem; border-radius: 24px; }
+            .hero-card h1 { font-size: 28px; text-align: center; }
+            .hero-card p { font-size: 0.95rem; }
+            .hero-button { width: 100%; padding: 0.9rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ═══ Navigation ═══ -->
+    <nav class="fixed w-full top-0 z-50 bg-[#0c73b8]">
+        <div class="max-w-7xl mx-auto px-3 lg:px-4">
+            <div class="nav-inner">
+
+                <!-- Logo -->
+                <a href="https://mystorage.vn/" class="header-logo flex-shrink-0">
+                    <img id="logo-white" src="assets/My-Storage_White-Logo_Official_190326.png" alt="MyStorage" />
+                    <img id="logo-color" src="assets/English-MyStorage_Blue-Logo_Official.png" alt="MyStorage" />
+                </a>
+
+                <!-- Desktop Nav Links -->
+                <div class="header-nav hidden lg:flex">
+
+                    <!-- Dịch Vụ -->
+                    <div class="nav-item">
+                        <a href="https://mystorage.vn/vi/tong-quan-dich-vu-cho-thue-kho-chuyen-nha/" class="header-link">Dịch Vụ <span class="material-symbols-outlined text-base align-middle" style="font-variation-settings:'FILL' 0,'wght' 400">expand_more</span></a>
+                        <div class="nav-dropdown dd-left">
+                            <a href="https://mystorage.vn/vi/tong-quan-dich-vu-cho-thue-kho-chuyen-nha/" target="_blank" rel="noopener"><svg class="dd-icon" width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="#0c73b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4,2 4,11 13,11"/><polyline points="10,8 13,11 10,14"/></svg>Các loại hình thuê kho</a>
+                            <a href="https://mystorage.vn/vi/tong-quan-dich-vu-cho-thue-kho-chuyen-nha/kho-tu-quan/" target="_blank" rel="noopener"><svg class="dd-icon" width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="#0c73b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4,2 4,11 13,11"/><polyline points="10,8 13,11 10,14"/></svg>Thuê kho tự quản</a>
+                            <a href="https://mystorage.vn/vi/tong-quan-dich-vu-cho-thue-kho-chuyen-nha/kho-luu-tru-tron-goi/" target="_blank" rel="noopener"><svg class="dd-icon" width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="#0c73b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4,2 4,11 13,11"/><polyline points="10,8 13,11 10,14"/></svg>Thuê kho kệ chung</a>
+                            <a href="https://mystorage.vn/vi/tong-quan-dich-vu-cho-thue-kho-chuyen-nha/luu-tru-hanh-ly/" target="_blank" rel="noopener"><svg class="dd-icon" width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="#0c73b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4,2 4,11 13,11"/><polyline points="10,8 13,11 10,14"/></svg>Thuê kho lưu trữ hành lý</a>
+                            <a href="https://mystorage.vn/vi/kho-ruou-tu-quan/" target="_blank" rel="noopener"><svg class="dd-icon" width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="#0c73b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4,2 4,11 13,11"/><polyline points="10,8 13,11 10,14"/></svg>Kho rượu tự quản</a>
+                            <a href="https://mystorage.vn/vi/kich-thuoc-kho-mini/" target="_blank" rel="noopener"><svg class="dd-icon" width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="#0c73b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4,2 4,11 13,11"/><polyline points="10,8 13,11 10,14"/></svg>Kích thước kho</a>
+                            <a href="https://mystorage.ai/" target="_blank" rel="noopener"><svg class="dd-icon" width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="#0c73b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4,2 4,11 13,11"/><polyline points="10,8 13,11 10,14"/></svg>Tính kích cỡ kho bằng AI</a>
+                            <a href="https://mystorage.vn/vi/quy-trinh-thue-kho-de-do/" target="_blank" rel="noopener"><svg class="dd-icon" width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="#0c73b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4,2 4,11 13,11"/><polyline points="10,8 13,11 10,14"/></svg>Quy Trình</a>
+                        </div>
+                    </div>
+
+                    <!-- B2B -->
+                    <div class="nav-item">
+                        <a href="https://mystorage.vn/vi/tong-quan-dich-vu-cho-thue-kho-chuyen-nha/kho-doanh-nghiep/" class="header-link">B2B <span class="material-symbols-outlined text-base align-middle" style="font-variation-settings:'FILL' 0,'wght' 400">expand_more</span></a>
+                        <div class="nav-dropdown dd-left">
+                            <a href="https://mystorage.vn/vi/tong-quan-dich-vu-cho-thue-kho-chuyen-nha/kho-doanh-nghiep/" target="_blank" rel="noopener"><svg class="dd-icon" width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="#0c73b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4,2 4,11 13,11"/><polyline points="10,8 13,11 10,14"/></svg>Kho doanh nghiệp</a>
+                            <a href="https://mystorage.vn/vi/tong-quan-dich-vu-cho-thue-kho-chuyen-nha/kho-luu-tru-tron-goi/" target="_blank" rel="noopener"><svg class="dd-icon" width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="#0c73b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4,2 4,11 13,11"/><polyline points="10,8 13,11 10,14"/></svg>Lưu trữ tài liệu</a>
+                        </div>
+                    </div>
+
+                    <!-- Địa Điểm Kho -->
+                    <div class="nav-item">
+                        <a href="https://mystorage.vn/vi/dia-diem-kho-luu-tru-mystorage/" class="header-link">Địa Điểm Kho <span class="material-symbols-outlined text-base align-middle" style="font-variation-settings:'FILL' 0,'wght' 400">expand_more</span></a>
+                        <div class="nav-dropdown dd-left" style="min-width:300px;">
+                            <a href="https://mystorage.vn/375-vo-nguyen-giap-storage-facility/" target="_blank" rel="noopener"><svg class="dd-icon" width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="#0c73b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4,2 4,11 13,11"/><polyline points="10,8 13,11 10,14"/></svg>375 Võ Nguyên Giáp – Trụ Sở Chính</a>
+                            <a href="https://mystorage.vn/an-phu-sport-park/" target="_blank" rel="noopener"><svg class="dd-icon" width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="#0c73b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4,2 4,11 13,11"/><polyline points="10,8 13,11 10,14"/></svg>90 Song Hành – Khu Thể Thao An Phú</a>
+                            <a href="https://mystorage.vn/binh-loi-self-storage-facility/" target="_blank" rel="noopener"><svg class="dd-icon" width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="#0c73b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4,2 4,11 13,11"/><polyline points="10,8 13,11 10,14"/></svg>19 Quốc Lộ 13 – Bình Lợi</a>
+                            <a href="https://mystorage.vn/ministop-tran-trong-cung-d7/" target="_blank" rel="noopener"><svg class="dd-icon" width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="#0c73b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4,2 4,11 13,11"/><polyline points="10,8 13,11 10,14"/></svg>69 Trần Trọng Cung – Ministop</a>
+                        </div>
+                    </div>
+
+                    <!-- Về Chúng Tôi -->
+                    <div class="nav-item">
+                        <a href="https://mystorage.vn/vi/ve-chung-toi-mystorage-cho-thue-kho/" class="header-link">Về Chúng Tôi <span class="material-symbols-outlined text-base align-middle" style="font-variation-settings:'FILL' 0,'wght' 400">expand_more</span></a>
+                        <div class="nav-dropdown dd-left">
+                            <a href="https://mystorage.vn/vi/ve-chung-toi-mystorage-cho-thue-kho/" target="_blank" rel="noopener"><svg class="dd-icon" width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="#0c73b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4,2 4,11 13,11"/><polyline points="10,8 13,11 10,14"/></svg>Về Chúng Tôi</a>
+                            <a href="https://mystorage.vn/customers-reviews/" target="_blank" rel="noopener"><svg class="dd-icon" width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="#0c73b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4,2 4,11 13,11"/><polyline points="10,8 13,11 10,14"/></svg>Đánh Giá & Thư Viện Ảnh</a>
+                            <a href="https://mystorage.vn/vr-tour/" target="_blank" rel="noopener"><svg class="dd-icon" width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="#0c73b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4,2 4,11 13,11"/><polyline points="10,8 13,11 10,14"/></svg>Tour 3D</a>
+                            <a href="https://mystorage.vn/career/" target="_blank" rel="noopener"><svg class="dd-icon" width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="#0c73b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4,2 4,11 13,11"/><polyline points="10,8 13,11 10,14"/></svg>Tuyển Dụng</a>
+                            <a href="https://mystorage.vn/about-esg-at-mystorage/" target="_blank" rel="noopener"><svg class="dd-icon" width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="#0c73b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4,2 4,11 13,11"/><polyline points="10,8 13,11 10,14"/></svg>ESG</a>
+                            <a href="https://mystorage.vn/blog/" target="_blank" rel="noopener"><svg class="dd-icon" width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="#0c73b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4,2 4,11 13,11"/><polyline points="10,8 13,11 10,14"/></svg>Blog</a>
+                        </div>
+                    </div>
+
+                    <a href="https://mystorage.vn/vi/lien-he/" class="header-link">Liên Hệ</a>
+                </div>
+
+                <!-- Right Actions -->
+                <div class="flex items-center gap-2">
+                    <div class="header-phone hidden lg:inline-flex">
+                        <span class="material-symbols-outlined" style="font-variation-settings:'FILL' 0,'wght' 600">phone_iphone</span>
+                        028 7770 0117
+                    </div>
+                    <a href="tel:02877700117" class="lg:hidden w-9 h-9 rounded-full border-2 border-white/50 flex items-center justify-center text-white flex-shrink-0" aria-label="Gọi ngay">
+                        <span class="material-symbols-outlined" style="font-size:18px;font-variation-settings:'FILL' 0,'wght' 500">phone_iphone</span>
+                    </a>
+                    <a href="https://booking.mystorage.vn/vi" class="header-button" style="min-width:0;padding:0.6rem 1rem;font-size:0.82rem;letter-spacing:0.06em;">XEM GIÁ</a>
+                    <!-- Language switcher -->
+                    <div class="lang-switcher flex-shrink-0">
+                        <button class="lang-btn flex items-center gap-1 text-white" aria-label="Ngôn ngữ">
+                            <img src="https://flagcdn.com/w20/vn.png" alt="Tiếng Việt" class="w-5 h-3 rounded-sm" />
+                            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
+                        </button>
+                        <div class="lang-drop">
+                            <a href="index.html">
+                                <img src="https://flagcdn.com/w20/us.png" alt="US" class="w-5 h-3 rounded-sm" />
+                                English
+                            </a>
+                            <a href="vi.html" class="active">
+                                <img src="https://flagcdn.com/w20/vn.png" alt="VN" class="w-5 h-3 rounded-sm" />
+                                Tiếng Việt
+                            </a>
+                        </div>
+                    </div>
+                    <button id="mobile-menu-btn" class="lg:hidden flex-shrink-0 text-white" aria-label="Mở menu" aria-expanded="false">
+                        <svg id="icon-menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+                        <svg id="icon-close" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" class="hidden"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile dropdown menu -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-gray-100 shadow-lg">
+            <div class="max-w-7xl mx-auto px-5 py-2 flex flex-col">
+                <a href="https://mystorage.vn/services/" class="flex items-center justify-between py-4 border-b border-gray-100 text-gray-900 text-base font-medium">
+                    Kho Lưu Trữ
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#ff914d" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
+                </a>
+                <a href="https://mystorage.vn/storage-for-b2b/" class="flex items-center justify-between py-4 border-b border-gray-100 text-gray-900 text-base font-medium">
+                    B2B
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#ff914d" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
+                </a>
+                <a href="https://mystorage.vn/storage-facility/" class="flex items-center justify-between py-4 border-b border-gray-100 text-gray-900 text-base font-medium">
+                    Địa Điểm Kho
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#ff914d" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
+                </a>
+                <a href="https://mystorage.vn/about-us/" class="flex items-center justify-between py-4 border-b border-gray-100 text-gray-900 text-base font-medium">
+                    Về Chúng Tôi
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#ff914d" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
+                </a>
+                <a href="https://mystorage.vn/contact-us/" class="py-4 border-b border-gray-100 text-[#ff914d] text-base font-medium">Liên Hệ</a>
+                <div class="py-5">
+                    <p class="text-xs font-bold tracking-widest text-gray-800 uppercase mb-4">Theo Dõi Chúng Tôi</p>
+                    <div class="flex items-center gap-3">
+                        <a href="https://www.facebook.com/MyStorageVN" target="_blank" rel="noopener" aria-label="Facebook" class="w-10 h-10 rounded-full bg-[#ff914d] flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                        </a>
+                        <a href="https://www.instagram.com/mystoragevn/" target="_blank" rel="noopener" aria-label="Instagram" class="w-10 h-10 rounded-full bg-[#ff914d] flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                        </a>
+                        <a href="mailto:hello@mystorage.vn" aria-label="Email" class="w-10 h-10 rounded-full bg-[#ff914d] flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        </a>
+                        <a href="https://vn.linkedin.com/company/mystorage" target="_blank" rel="noopener" aria-label="LinkedIn" class="w-10 h-10 rounded-full bg-[#ff914d] flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <script>
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        const iconMenu = document.getElementById('icon-menu');
+        const iconClose = document.getElementById('icon-close');
+        btn.addEventListener('click', () => {
+            const open = menu.classList.toggle('hidden');
+            iconMenu.classList.toggle('hidden', !open);
+            iconClose.classList.toggle('hidden', open);
+            btn.setAttribute('aria-expanded', String(!open));
+        });
+    </script>
+
+    <!-- ═══ Hero ═══ -->
+    <section class="relative overflow-hidden flex items-center justify-center mt-20 md:mt-0">
+        <!-- Background layers -->
+        <div class="absolute inset-0" style="background: url('assets/self-storage-in-ho-chi-minh-city.JPG') center center / cover no-repeat;"></div>
+        <div class="absolute inset-0" style="background: radial-gradient(circle at top, rgba(255,255,255,0.14), transparent 24%), radial-gradient(circle at 90% 18%, rgba(255,255,255,0.06), transparent 14%), linear-gradient(180deg, rgba(12,75,146,0.82), rgba(7,27,65,0.97));"></div>
+        <div class="absolute inset-0 bg-slate-950/25"></div>
+
+        <div class="max-w-6xl mx-auto px-4 relative z-10 w-full py-16 md:py-24">
+
+            <!-- Headline block -->
+            <div class="text-center mb-10">
+                <div class="inline-flex items-center justify-center gap-2 mb-5">
+                    <span class="h-2.5 w-2.5 rounded-full" style="background:#ff914d"></span>
+                    <span class="uppercase tracking-[0.4em] text-[#ff914d] text-xs font-semibold">Chương Trình Đối Tác</span>
+                </div>
+                <h1 class="font-bold mb-5 text-white" style="font-size:clamp(30px,5.5vw,56px);line-height:1.04;letter-spacing:-0.6px;">
+                    Mở Ra <span style="color:#ff914d">Quyền Lợi</span> Mới.<br />
+                    Nâng Cao Giá Trị Khách Hàng.
+                </h1>
+                <p class="mx-auto max-w-lg mb-6 text-white/80 text-base leading-relaxed">
+                    Biến mạng lưới khách hàng thành nguồn thu nhập. Không cần đầu tư, không phát sinh thêm việc.
+                </p>
+                <!-- Commission callout -->
+                <div class="flex items-center justify-center gap-3 flex-wrap mb-1">
+                    <span class="text-white text-xl font-light opacity-70">Nhận thưởng lên đến</span>
+                    <span style="font-family:'Roboto Condensed',sans-serif;font-size:clamp(52px,7vw,88px);font-weight:700;color:#ff914d;line-height:1;">1.000.000 <span style="font-size:0.5em;vertical-align:middle;">VND</span></span>
+                </div>
+                <p class="text-white/60 text-sm mt-1 mb-10">mỗi lượt giới thiệu thành công — thanh toán về tài khoản trong 7 ngày</p>
+            </div>
+
+            <!-- 3 pillar cards -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mb-10">
+
+                <div class="rounded-2xl border border-white/10 p-7 flex flex-col gap-4" style="background:rgba(255,255,255,0.07);">
+                    <div class="rounded-full bg-[#ff914d]/20 flex items-center justify-center" style="width:52px;height:52px;">
+                        <span class="material-symbols-outlined text-[#ff914d]" style="font-size:28px">payments</span>
+                    </div>
+                    <h3 style="font-family:'Roboto Condensed',sans-serif;font-size:21px;font-weight:700;color:#fff;margin:0;">Hoa Hồng Hấp Dẫn</h3>
+                    <p class="text-white/65 text-sm leading-relaxed"><strong class="text-[#ff914d]">1.000.000 VND</strong> mỗi hợp đồng ký thành công. Không giới hạn — giới thiệu càng nhiều, thu nhập càng cao.</p>
+                    <div class="mt-auto pt-4 border-t border-white/10 flex items-center gap-2 text-[#ff914d] text-sm font-semibold">
+                        <span class="material-symbols-outlined text-base">trending_up</span>
+                        Không giới hạn thu nhập
+                    </div>
+                </div>
+
+                <div class="rounded-2xl border border-white/10 p-7 flex flex-col gap-4" style="background:rgba(255,255,255,0.07);">
+                    <div class="rounded-full bg-[#ff914d]/20 flex items-center justify-center" style="width:52px;height:52px;">
+                        <span class="material-symbols-outlined text-[#ff914d]" style="font-size:28px">handshake</span>
+                    </div>
+                    <h3 style="font-family:'Roboto Condensed',sans-serif;font-size:21px;font-weight:700;color:#fff;margin:0;">Giới Thiệu Dễ Dàng</h3>
+                    <p class="text-white/65 text-sm leading-relaxed">Chỉ cần giới thiệu. MyStorage lo <strong class="text-white">tư vấn, hợp đồng, vận chuyển & lưu kho</strong> — bạn không cần làm thêm gì.</p>
+                    <div class="mt-auto pt-4 border-t border-white/10 flex items-center gap-2 text-[#ff914d] text-sm font-semibold">
+                        <span class="material-symbols-outlined text-base">bolt</span>
+                        Giới thiệu một lần, thu nhập thụ động
+                    </div>
+                </div>
+
+                <div class="rounded-2xl border border-white/10 p-7 flex flex-col gap-4" style="background:rgba(255,255,255,0.07);">
+                    <div class="rounded-full bg-[#ff914d]/20 flex items-center justify-center" style="width:52px;height:52px;">
+                        <span class="material-symbols-outlined text-[#ff914d]" style="font-size:28px">verified_user</span>
+                    </div>
+                    <h3 style="font-family:'Roboto Condensed',sans-serif;font-size:21px;font-weight:700;color:#fff;margin:0;">Uy Tín & Đảm Bảo</h3>
+                    <p class="text-white/65 text-sm leading-relaxed">Thương hiệu kho số 1 Việt Nam với <strong class="text-white">hơn 10 năm</strong> hoạt động. Mọi lượt giới thiệu được theo dõi, mọi khoản thanh toán được đảm bảo.</p>
+                    <div class="mt-auto pt-4 border-t border-white/10 flex items-center gap-2 text-[#ff914d] text-sm font-semibold">
+                        <span class="material-symbols-outlined text-base">security</span>
+                        Theo dõi minh bạch 100%
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- CTA -->
+            <div class="text-center">
+                <a href="#onboarding" class="inline-flex items-center gap-2 bg-[#ff914d] hover:bg-[#ff7f36] text-white font-bold uppercase text-sm tracking-widest px-10 py-4 rounded-full transition-colors">
+                    Trở Thành Đối Tác
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ═══ Stats Bar ═══ -->
+    <section class="bg-[#0c73b8] py-7">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center text-white divide-y sm:divide-y-0 sm:divide-x divide-white/20">
+                <div class="py-4 sm:py-0">
+                    <p class="text-4xl font-bold" style="font-family:'Roboto Condensed',sans-serif;">120+</p>
+                    <p class="text-sm mt-1 text-white/80 uppercase tracking-widest">Đối Tác Đang Hoạt Động</p>
+                </div>
+                <div class="py-4 sm:py-0">
+                    <p class="text-4xl font-bold" style="font-family:'Roboto Condensed',sans-serif;">400+</p>
+                    <p class="text-sm mt-1 text-white/80 uppercase tracking-widest">Lượt Giới Thiệu Thành Công</p>
+                </div>
+                <div class="py-4 sm:py-0">
+                    <p class="text-4xl font-bold" style="font-family:'Roboto Condensed',sans-serif;">98%</p>
+                    <p class="text-sm mt-1 text-white/80 uppercase tracking-widest">Tỷ Lệ Giữ Chân Đối Tác</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ Our Partners ═══ -->
+    <section class="py-10 bg-white border-b border-gray-100">
+        <div class="max-w-6xl mx-auto px-4">
+            <p class="text-center text-xs font-semibold uppercase tracking-[0.4em] text-gray-400 mb-10">Được Tin Tưởng Bởi Các Công Ty Hàng Đầu Tại Việt Nam</p>
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 items-center max-w-3xl mx-auto">
+                <div class="flex items-center justify-center rounded-xl border border-gray-100 bg-gray-50 hover:border-orange-200 hover:bg-orange-50 transition-all" style="width:180px;height:100px;">
+                    <img src="assets/asian-tiger-vietnam.png" alt="Asian Tiger Vietnam" style="width:140px;height:60px;object-fit:contain;" />
+                </div>
+                <div class="flex items-center justify-center rounded-xl border border-gray-100 bg-gray-50 hover:border-orange-200 hover:bg-orange-50 transition-all" style="width:180px;height:100px;">
+                    <img src="assets/vnhouse-vietnam.png" alt="VN House Vietnam" style="width:140px;height:60px;object-fit:contain;" />
+                </div>
+                <div class="flex items-center justify-center rounded-xl border border-gray-100 bg-gray-50 hover:border-orange-200 hover:bg-orange-50 transition-all" style="width:180px;height:100px;">
+                    <img src="assets/vnspace-vietnam.png" alt="VN Space Vietnam" style="width:140px;height:60px;object-fit:contain;" />
+                </div>
+                <div class="flex items-center justify-center rounded-xl border border-gray-100 bg-gray-50 hover:border-orange-200 hover:bg-orange-50 transition-all" style="width:180px;height:100px;">
+                    <img src="assets/savills-vietnam.webp" alt="Savills Vietnam" style="width:140px;height:60px;object-fit:contain;" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ Who Is This For ═══ -->
+    <section class="py-14 bg-[#faf8ff]">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-8">
+                <span class="text-[11px] font-semibold uppercase tracking-[0.4em] text-[#ff914d]">Loại Hình Đối Tác</span>
+                <h2 class="text-3xl font-bold brand-heading mt-2 mb-3">Dành Cho Ai?</h2>
+                <p class="text-gray-500 max-w-xl mx-auto text-sm leading-relaxed">Nếu khách hàng của bạn cần chuyển nhà, mở rộng, thu hẹp hoặc di chuyển — bạn có cơ hội kiếm thu nhập từ mỗi lần giới thiệu.</p>
+                <div class="w-16 h-1 bg-orange-500 mx-auto rounded mt-4"></div>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+
+                <!-- Môi Giới Bất Động Sản -->
+                <div class="flex flex-col p-6 rounded-2xl bg-white border border-gray-100 shadow-sm hover:shadow-md hover:border-orange-200 transition-all">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-11 h-11 rounded-full bg-orange-50 flex items-center justify-center flex-shrink-0">
+                            <span class="material-symbols-outlined text-[#ff914d]" style="font-size:24px">apartment</span>
+                        </div>
+                        <p class="text-sm font-bold text-gray-800 leading-tight">Môi Giới Bất Động Sản</p>
+                    </div>
+                    <ul class="space-y-2">
+                        <li class="flex items-start gap-2 text-xs text-gray-500"><span class="text-[#ff914d] font-bold flex-shrink-0">•</span>Khách hàng thu dọn đồ đạc trước khi niêm yết bất động sản</li>
+                        <li class="flex items-start gap-2 text-xs text-gray-500"><span class="text-[#ff914d] font-bold flex-shrink-0">•</span>Lưu kho nội thất dàn dựng trong thời gian trưng bày</li>
+                        <li class="flex items-start gap-2 text-xs text-gray-500"><span class="text-[#ff914d] font-bold flex-shrink-0">•</span>Người mua cần lưu trữ tạm thời giữa các giao dịch</li>
+                    </ul>
+                </div>
+
+                <!-- Công Ty Chuyển Nhà -->
+                <div class="flex flex-col p-6 rounded-2xl bg-white border border-gray-100 shadow-sm hover:shadow-md hover:border-orange-200 transition-all">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-11 h-11 rounded-full bg-orange-50 flex items-center justify-center flex-shrink-0">
+                            <span class="material-symbols-outlined text-[#ff914d]" style="font-size:24px">local_shipping</span>
+                        </div>
+                        <p class="text-sm font-bold text-gray-800 leading-tight">Công Ty Chuyển Nhà</p>
+                    </div>
+                    <ul class="space-y-2">
+                        <li class="flex items-start gap-2 text-xs text-gray-500"><span class="text-[#ff914d] font-bold flex-shrink-0">•</span>Lưu kho tạm khi nhà mới chưa sẵn sàng tiếp nhận</li>
+                        <li class="flex items-start gap-2 text-xs text-gray-500"><span class="text-[#ff914d] font-bold flex-shrink-0">•</span>Doanh nghiệp lưu thiết bị khi chuyển văn phòng</li>
+                        <li class="flex items-start gap-2 text-xs text-gray-500"><span class="text-[#ff914d] font-bold flex-shrink-0">•</span>Di chuyển đường dài cần lưu kho ngắn hạn</li>
+                    </ul>
+                </div>
+
+                <!-- Nhà Thiết Kế Nội Thất -->
+                <div class="flex flex-col p-6 rounded-2xl bg-white border border-gray-100 shadow-sm hover:shadow-md hover:border-orange-200 transition-all">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-11 h-11 rounded-full bg-orange-50 flex items-center justify-center flex-shrink-0">
+                            <span class="material-symbols-outlined text-[#ff914d]" style="font-size:24px">design_services</span>
+                        </div>
+                        <p class="text-sm font-bold text-gray-800 leading-tight">Nhà Thiết Kế Nội Thất</p>
+                    </div>
+                    <ul class="space-y-2">
+                        <li class="flex items-start gap-2 text-xs text-gray-500"><span class="text-[#ff914d] font-bold flex-shrink-0">•</span>Lưu kho nội thất trong thời gian thi công cải tạo</li>
+                        <li class="flex items-start gap-2 text-xs text-gray-500"><span class="text-[#ff914d] font-bold flex-shrink-0">•</span>Giữ đồ nội thất mới trước khi lắp đặt hoàn chỉnh</li>
+                        <li class="flex items-start gap-2 text-xs text-gray-500"><span class="text-[#ff914d] font-bold flex-shrink-0">•</span>Khách hàng dọn dẹp trước khi khởi động dự án thiết kế</li>
+                    </ul>
+                </div>
+
+                <!-- Dịch Vụ Người Nước Ngoài -->
+                <div class="flex flex-col p-6 rounded-2xl bg-white border border-gray-100 shadow-sm hover:shadow-md hover:border-orange-200 transition-all">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-11 h-11 rounded-full bg-orange-50 flex items-center justify-center flex-shrink-0">
+                            <span class="material-symbols-outlined text-[#ff914d]" style="font-size:24px">travel_explore</span>
+                        </div>
+                        <p class="text-sm font-bold text-gray-800 leading-tight">Dịch Vụ Người Nước Ngoài</p>
+                    </div>
+                    <ul class="space-y-2">
+                        <li class="flex items-start gap-2 text-xs text-gray-500"><span class="text-[#ff914d] font-bold flex-shrink-0">•</span>Người nước ngoài lưu đồ giữa các kỳ công tác</li>
+                        <li class="flex items-start gap-2 text-xs text-gray-500"><span class="text-[#ff914d] font-bold flex-shrink-0">•</span>Khách rời Việt Nam tạm thời nhưng dự định quay lại</li>
+                        <li class="flex items-start gap-2 text-xs text-gray-500"><span class="text-[#ff914d] font-bold flex-shrink-0">•</span>Người mới đến cần lưu kho trong khi tìm nhà</li>
+                    </ul>
+                </div>
+
+                <!-- Không Gian Coworking -->
+                <div class="flex flex-col p-6 rounded-2xl bg-white border border-gray-100 shadow-sm hover:shadow-md hover:border-orange-200 transition-all">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-11 h-11 rounded-full bg-orange-50 flex items-center justify-center flex-shrink-0">
+                            <span class="material-symbols-outlined text-[#ff914d]" style="font-size:24px">meeting_room</span>
+                        </div>
+                        <p class="text-sm font-bold text-gray-800 leading-tight">Không Gian Coworking</p>
+                    </div>
+                    <ul class="space-y-2">
+                        <li class="flex items-start gap-2 text-xs text-gray-500"><span class="text-[#ff914d] font-bold flex-shrink-0">•</span>Thành viên lưu tài liệu và thiết bị ngoài văn phòng</li>
+                        <li class="flex items-start gap-2 text-xs text-gray-500"><span class="text-[#ff914d] font-bold flex-shrink-0">•</span>Startup lưu hàng tồn kho khi chưa có kho riêng</li>
+                        <li class="flex items-start gap-2 text-xs text-gray-500"><span class="text-[#ff914d] font-bold flex-shrink-0">•</span>Doanh nghiệp lưu trữ hồ sơ an toàn và tiết kiệm</li>
+                    </ul>
+                </div>
+
+                <!-- Công Ty Du Lịch -->
+                <div class="flex flex-col p-6 rounded-2xl bg-white border border-gray-100 shadow-sm hover:shadow-md hover:border-orange-200 transition-all">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-11 h-11 rounded-full bg-orange-50 flex items-center justify-center flex-shrink-0">
+                            <span class="material-symbols-outlined text-[#ff914d]" style="font-size:24px">luggage</span>
+                        </div>
+                        <p class="text-sm font-bold text-gray-800 leading-tight">Công Ty Du Lịch</p>
+                    </div>
+                    <ul class="space-y-2">
+                        <li class="flex items-start gap-2 text-xs text-gray-500"><span class="text-[#ff914d] font-bold flex-shrink-0">•</span>Khách du lịch lưu hành lý trong chuyến đi dài ngày</li>
+                        <li class="flex items-start gap-2 text-xs text-gray-500"><span class="text-[#ff914d] font-bold flex-shrink-0">•</span>Khách ghé nhiều thành phố cần điểm lưu trữ cố định</li>
+                        <li class="flex items-start gap-2 text-xs text-gray-500"><span class="text-[#ff914d] font-bold flex-shrink-0">•</span>Tránh phụ phí hành lý quá cân khi di chuyển</li>
+                    </ul>
+                </div>
+
+                <!-- Căn Hộ Dịch Vụ -->
+                <div class="flex flex-col p-6 rounded-2xl bg-white border border-gray-100 shadow-sm hover:shadow-md hover:border-orange-200 transition-all">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-11 h-11 rounded-full bg-orange-50 flex items-center justify-center flex-shrink-0">
+                            <span class="material-symbols-outlined text-[#ff914d]" style="font-size:24px">hotel</span>
+                        </div>
+                        <p class="text-sm font-bold text-gray-800 leading-tight">Căn Hộ Dịch Vụ</p>
+                    </div>
+                    <ul class="space-y-2">
+                        <li class="flex items-start gap-2 text-xs text-gray-500"><span class="text-[#ff914d] font-bold flex-shrink-0">•</span>Khách lưu trú dài hạn cần thêm không gian lưu trữ</li>
+                        <li class="flex items-start gap-2 text-xs text-gray-500"><span class="text-[#ff914d] font-bold flex-shrink-0">•</span>Cư dân giữa hai lần thuê nhà cần lưu kho ngắn hạn</li>
+                        <li class="flex items-start gap-2 text-xs text-gray-500"><span class="text-[#ff914d] font-bold flex-shrink-0">•</span>Khách doanh nghiệp lưu thiết bị làm việc trong thời gian lưu trú</li>
+                    </ul>
+                </div>
+
+                <!-- Công Ty Sự Kiện -->
+                <div class="flex flex-col p-6 rounded-2xl bg-white border border-gray-100 shadow-sm hover:shadow-md hover:border-orange-200 transition-all">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-11 h-11 rounded-full bg-orange-50 flex items-center justify-center flex-shrink-0">
+                            <span class="material-symbols-outlined text-[#ff914d]" style="font-size:24px">celebration</span>
+                        </div>
+                        <p class="text-sm font-bold text-gray-800 leading-tight">Công Ty Sự Kiện</p>
+                    </div>
+                    <ul class="space-y-2">
+                        <li class="flex items-start gap-2 text-xs text-gray-500"><span class="text-[#ff914d] font-bold flex-shrink-0">•</span>Lưu kho đạo cụ, trang trí và thiết bị giữa các sự kiện</li>
+                        <li class="flex items-start gap-2 text-xs text-gray-500"><span class="text-[#ff914d] font-bold flex-shrink-0">•</span>Lưu trữ tràn khi không gian hội trường bị giới hạn</li>
+                        <li class="flex items-start gap-2 text-xs text-gray-500"><span class="text-[#ff914d] font-bold flex-shrink-0">•</span>Hàng tồn kho theo mùa như vật liệu triển lãm và lễ hội</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="text-center mt-10">
+                <a href="#onboarding" class="inline-flex items-center gap-2 text-[#0275bc] font-semibold text-sm hover:text-[#ff914d] transition-colors">
+                    Không thấy lĩnh vực của bạn? Hãy đăng ký — chúng tôi hợp tác với nhiều loại đối tác
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ How It Works ═══ -->
+    <section class="py-14 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl font-bold brand-heading mb-4">Chương Trình Giới Thiệu Hoạt Động Như Thế Nào</h2>
+                <div class="w-20 h-1 bg-orange-500 mx-auto rounded"></div>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6">
+                <div class="step-card">
+                    <div class="step-icon-wrap">
+                        <span class="material-symbols-outlined step-icon">person_add</span>
+                    </div>
+                    <h3 class="primary-heading">1. Đăng Ký Làm Đối Tác</h3>
+                    <p>Đăng ký tham gia mạng lưới đối tác của chúng tôi.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-icon-wrap">
+                        <span class="material-symbols-outlined step-icon">share</span>
+                    </div>
+                    <h3 class="primary-heading">2. Giới Thiệu Khách Hàng</h3>
+                    <p>Giới thiệu khách hàng có nhu cầu dịch vụ lưu kho.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-icon-wrap">
+                        <span class="material-symbols-outlined step-icon">local_shipping</span>
+                    </div>
+                    <h3 class="primary-heading">3. Chúng Tôi Lo Mọi Thứ</h3>
+                    <p>MyStorage quản lý vận chuyển, lưu trữ và hỗ trợ.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-icon-wrap">
+                        <span class="material-symbols-outlined step-icon">account_balance_wallet</span>
+                    </div>
+                    <h3 class="primary-heading">4. Nhận Quyền Lợi</h3>
+                    <p>Khách hàng của bạn nhận được quyền lợi bổ sung.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ Testimonials ═══ -->
+    <section class="py-14 bg-[#faf8ff]">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="text-center mb-8">
+                <span class="text-[11px] font-semibold uppercase tracking-[0.4em] text-[#ff914d]">Câu Chuyện Đối Tác</span>
+                <h2 class="text-3xl font-bold brand-heading mt-2 mb-3">Đối Tác Nói Gì Về Chúng Tôi</h2>
+                <div class="w-16 h-1 bg-orange-500 mx-auto rounded mt-4"></div>
+            </div>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 flex flex-col gap-5">
+                    <div class="flex gap-1">
+                        <span style="color:#ff914d;font-size:18px">★★★★★</span>
+                    </div>
+                    <p class="text-gray-700 text-sm leading-relaxed italic">
+                        "Chúng tôi bắt đầu giới thiệu khách hàng cần lưu trữ tạm thời trong quá trình cải tạo. Chỉ sau 3 tháng, đây đã trở thành một nguồn doanh thu đáng kể — và khách hàng rất hài lòng. MyStorage xử lý mọi thứ sau khi chúng tôi giới thiệu."
+                    </p>
+                    <div class="flex items-center gap-4 mt-auto pt-4 border-t border-gray-100">
+                        <div class="w-11 h-11 rounded-full bg-[#0c73b8] flex items-center justify-center text-white font-bold text-base flex-shrink-0">NH</div>
+                        <div>
+                            <p class="font-semibold text-gray-900 text-sm">Nhat Ho</p>
+                            <p class="text-xs text-gray-500">Chuyên Viên Môi Giới · Savills Vietnam</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 flex flex-col gap-5">
+                    <div class="flex gap-1">
+                        <span style="color:#ff914d;font-size:18px">★★★★★</span>
+                    </div>
+                    <p class="text-gray-700 text-sm leading-relaxed italic">
+                        "Với tư cách là công ty chuyển nhà, lưu trữ luôn là một phần trong cuộc trò chuyện với khách hàng. Chương Trình Trigger Partner giúp chúng tôi chính thức hóa điều đó thành một nguồn thu nhập thực sự."
+                    </p>
+                    <div class="flex items-center gap-4 mt-auto pt-4 border-t border-gray-100">
+                        <div class="w-11 h-11 rounded-full bg-[#ff914d] flex items-center justify-center text-white font-bold text-base flex-shrink-0">TN</div>
+                        <div>
+                            <p class="font-semibold text-gray-900 text-sm">Thien Ngan</p>
+                            <p class="text-xs text-gray-500">Quản Lý Dịch Vụ Khách Hàng</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ Onboarding / Contact ═══ -->
+    <section id="onboarding" class="py-14 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid gap-0 lg:grid-cols-[1.05fr_0.95fr] bg-white rounded-[2rem] shadow-[0_40px_90px_rgba(15,23,42,0.15)] overflow-hidden">
+                <div class="bg-[#0a3b66] text-white p-10 lg:p-12 flex flex-col justify-center">
+                    <div class="inline-flex items-center rounded-full bg-orange-500/15 px-4 py-2 text-[11px] tracking-[0.45em] uppercase text-orange-300 mb-5 w-fit">ĐĂNG KÝ</div>
+                    <h2 class="text-3xl sm:text-4xl font-bold leading-tight mb-6">Sẵn Sàng Gửi Lượt Giới Thiệu Đầu Tiên?</h2>
+                    <p class="text-sm leading-relaxed text-slate-200 mb-8 max-w-xl">
+                        Tham gia mạng lưới đối tác B2B của chúng tôi. Điền vào đơn đăng ký và đội ngũ đối tác của chúng tôi sẽ liên hệ để hỗ trợ bạn.
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <span class="material-symbols-outlined text-orange-400 text-xl mt-0.5">check_circle</span>
+                            <span class="text-sm text-slate-200">Phản hồi trong vòng 24 giờ</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="material-symbols-outlined text-orange-400 text-xl mt-0.5">check_circle</span>
+                            <span class="text-sm text-slate-200">Quản lý đối tác chuyên biệt</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-white p-10 lg:p-12">
+                    <form id="partner-form" class="space-y-6">
+                        <div class="grid gap-4 sm:grid-cols-2">
+                            <label class="block">
+                                <span class="text-[11px] font-semibold uppercase tracking-[0.24em] text-slate-600">Họ Và Tên</span>
+                                <input id="f-name" type="text" placeholder="Nguyễn Văn A"
+                                    class="mt-3 w-full rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-900 shadow-sm focus:border-[#0c73b8] focus:ring-2 focus:ring-[#0c73b8]/15 outline-none" />
+                            </label>
+                            <label class="block">
+                                <span class="text-[11px] font-semibold uppercase tracking-[0.24em] text-slate-600">Loại Hình Kinh Doanh</span>
+                                <input id="f-business" type="text" placeholder="Vd: Công ty bất động sản"
+                                    class="mt-3 w-full rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-900 shadow-sm focus:border-[#0c73b8] focus:ring-2 focus:ring-[#0c73b8]/15 outline-none" />
+                            </label>
+                        </div>
+                        <label class="block">
+                            <span class="text-[11px] font-semibold uppercase tracking-[0.24em] text-slate-600">Email Công Việc</span>
+                            <input id="f-email" type="email" placeholder="tên@congty.com"
+                                class="mt-3 w-full rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-900 shadow-sm focus:border-[#0c73b8] focus:ring-2 focus:ring-[#0c73b8]/15 outline-none" />
+                        </label>
+                        <label class="block">
+                            <span class="text-[11px] font-semibold uppercase tracking-[0.24em] text-slate-600">Số Điện Thoại</span>
+                            <input id="f-phone" type="tel" placeholder="+84 028 7770 0117"
+                                class="mt-3 w-full rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-900 shadow-sm focus:border-[#0c73b8] focus:ring-2 focus:ring-[#0c73b8]/15 outline-none" />
+                        </label>
+                        <button id="f-submit" type="submit"
+                            class="w-full rounded-full bg-orange-500 px-6 py-4 text-sm font-bold uppercase tracking-[0.12em] text-white shadow-2xl shadow-orange-500/20 transition hover:bg-orange-400">
+                            Đăng Ký Hợp Tác
+                        </button>
+                        <p id="f-error" class="hidden text-center text-xs text-red-500">Đã xảy ra lỗi. Vui lòng thử lại hoặc liên hệ trực tiếp với chúng tôi.</p>
+                        <p class="text-center text-xs text-slate-400">Bằng cách đăng ký, bạn đồng ý với
+                            <a href="#" class="font-semibold text-slate-900 underline decoration-slate-200">Điều Khoản Đối Tác</a> của chúng tôi.
+                        </p>
+                    </form>
+                    <div id="form-success" class="hidden text-center py-8">
+                        <div class="w-16 h-16 rounded-full bg-green-50 flex items-center justify-center mx-auto mb-4">
+                            <span class="material-symbols-outlined text-green-500" style="font-size:36px">check_circle</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Đã Nhận Đơn Đăng Ký!</h3>
+                        <p class="text-sm text-gray-500">Đội ngũ đối tác của chúng tôi sẽ liên hệ với bạn trong vòng 24 giờ.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ Footer ═══ -->
+    <footer class="bg-[#0c73b8] text-white">
+        <div class="px-4 lg:px-8 py-12">
+            <div class="max-w-6xl mx-auto">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-8">
+                    <div class="lg:col-span-3">
+                        <div class="footer-logo mb-6">
+                            <img src="assets/My-Storage_White-Logo_Official_190326.png" alt="MyStorage" />
+                        </div>
+                        <p style="font-family:'Roboto Condensed',sans-serif;font-size:30px;font-weight:400;line-height:1.1;margin-bottom:1.5rem;color:#fff;max-width:310px;">Kho tự quản chuẩn Âu-Mỹ đầu tiên tại Việt Nam</p>
+                        <a href="#" class="inline-flex items-center gap-2 btn-secondary px-6 py-3 text-sm font-bold">
+                            Báo Giá
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                        </a>
+                    </div>
+                    <div class="lg:col-span-9 grid grid-cols-2 md:grid-cols-4 gap-8">
+                        <div>
+                            <h4 class="footer-column-heading text-white">Dịch Vụ Lưu Trữ</h4>
+                            <ul class="space-y-3">
+                                <li><a href="https://mystorage.vn/vi/tong-quan-dich-vu-cho-thue-kho-chuyen-nha/kho-doanh-nghiep/" class="footer-body-text hover:text-white transition">Kho doanh nghiệp</a></li>
+                                <li><a href="https://mystorage.vn/services/document-storage-saigon/" class="footer-body-text hover:text-white transition">Lưu trữ tài liệu</a></li>
+                                <li><a href="https://mystorage.vn/vi/tong-quan-dich-vu-cho-thue-kho-chuyen-nha/kho-luu-tru-tron-goi/" class="footer-body-text hover:text-white transition">Thuê kho + fulfillment</a></li>
+                                <li><a href="https://mystorage.vn/vi/tong-quan-dich-vu-cho-thue-kho-chuyen-nha/kho-tu-quan/" class="footer-body-text hover:text-white transition">Kho tự quản</a></li>
+                                <li><a href="https://mystorage.vn/services/air-conditioned-storage/" class="footer-body-text hover:text-white transition">Kho có máy lạnh</a></li>
+                                <li><a href="https://mystorage.vn/services/furniture-storage-saigon/" class="footer-body-text hover:text-white transition">Lưu trữ nội thất</a></li>
+                                <li><a href="https://mystorage.vn/vi/tong-quan-dich-vu-cho-thue-kho-chuyen-nha/luu-tru-hanh-ly/" class="footer-body-text hover:text-white transition">Lưu trữ hành lý</a></li>
+                                <li><a href="https://mystorage.vn/services/motorbike-storage-saigon/" class="footer-body-text hover:text-white transition">Lưu trữ xe đạp</a></li>
+                                <li><a href="https://mystorage.vn/services/cold-storage/" class="footer-body-text hover:text-white transition">Kho lạnh</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="footer-column-heading text-white">Dịch Vụ Chuyển Nhà</h4>
+                            <ul class="space-y-3">
+                                <li><a href="https://mystorage.vn/services/house-moving/" class="footer-body-text hover:text-white transition">Dịch vụ chuyển nhà tại TP.HCM</a></li>
+                                <li><a href="https://mystorage.vn/packing-materials/" class="footer-body-text hover:text-white transition">Vật liệu đóng gói</a></li>
+                                <li><a href="https://mystorage.vn/packing-materials/" class="footer-body-text hover:text-white transition">Thùng giấy carton</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="footer-column-heading text-white">Hỗ Trợ</h4>
+                            <ul class="space-y-3">
+                                <li><a href="https://mystorage.vn/storage-terms-and-conditions/" class="footer-body-text hover:text-white transition">Điều khoản dịch vụ</a></li>
+                                <li><a href="https://mystorage.vn/privacy/" class="footer-body-text hover:text-white transition">Chính sách bảo mật</a></li>
+                                <li><a href="https://mystorage.vn/prohibited/" class="footer-body-text hover:text-white transition">Các mặt hàng Cấm</a></li>
+                                <li><a href="https://mystorage.vn/protection-plans/" class="footer-body-text hover:text-white transition">Gói bảo hiểm</a></li>
+                                <li><a href="https://mystorage.vn/faqs/" class="footer-body-text hover:text-white transition">Các Câu hỏi Thường gặp</a></li>
+                                <li><a href="#onboarding" class="footer-body-text hover:text-white transition">Hợp Tác Với Chúng Tôi</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="footer-column-heading text-white">MyStorage</h4>
+                            <ul class="space-y-3">
+                                <li><a href="https://mystorage.vn/vi/" class="footer-body-text hover:text-white transition">Trang Chủ</a></li>
+                                <li><a href="https://mystorage.vn/vi/lien-he/" class="footer-body-text hover:text-white transition">Liên Hệ</a></li>
+                                <li><a href="https://mystorage.vn/blog/" class="footer-body-text hover:text-white transition">Blog</a></li>
+                                <li><a href="https://mystorage.ai/" class="footer-body-text hover:text-white transition">Tính toán kích cỡ kho bằng AI</a></li>
+                                <li><a href="https://mystorage.vn/social-wall/" class="footer-body-text hover:text-white transition">Mạng Xã Hội</a></li>
+                                <li><a href="https://mystorage.vn/clothing-donation/" class="footer-body-text hover:text-white transition">Tủ đồ từ thiện</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact row -->
+                <div class="footer-contact-row">
+                    <div class="flex flex-col lg:flex-row justify-between items-center gap-6">
+                        <div class="flex items-center gap-4">
+                            <div class="bg-orange-500 w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0">
+                                <span class="material-symbols-outlined text-white text-lg">phone_iphone</span>
+                            </div>
+                            <span class="text-3xl font-semibold tracking-tight text-white">028 7770 0117</span>
+                        </div>
+                        <div class="flex items-center gap-3 footer-socials">
+                            <a href="https://www.facebook.com/MyStorageVN" target="_blank" rel="noopener" aria-label="Facebook">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                            </a>
+                            <a href="https://www.instagram.com/mystoragevn/" target="_blank" rel="noopener" aria-label="Instagram">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                            </a>
+                            <a href="https://vn.linkedin.com/company/mystorage" target="_blank" rel="noopener" aria-label="LinkedIn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                            </a>
+                            <a href="mailto:hello@mystorage.vn" aria-label="Email">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Brand / badges row -->
+                <div class="footer-brand-row">
+                    <div class="grid grid-cols-1 lg:grid-cols-[auto_1fr] gap-6 items-center">
+                        <div class="flex flex-wrap gap-4">
+                            <div class="footer-badge-box">
+                                <img src="assets/bo-cong-thuong.png" alt="Bộ Công Thương — Đã đăng ký thương mại điện tử" />
+                            </div>
+                            <div class="footer-badge-box">
+                                <img src="assets/SSAA-self-storage-association-asia.png" alt="Hiệp Hội Tự Lưu Trữ Châu Á" />
+                            </div>
+                        </div>
+                        <p class="footer-copy text-sm leading-relaxed">
+                            Kho lưu trữ an toàn, chuyên nghiệp và tiện lợi cho cá nhân lẫn doanh nghiệp. Dịch vụ thuê kho trọn gói đi kèm mức giá phải chăng, đội ngũ quản lý giàu kinh nghiệm đến từ Mỹ và Châu Âu mang đến trải nghiệm xứng tầm quốc tế. Chúng tôi cũng cung cấp cả dịch vụ vận chuyển để hỗ trợ tốt nhất cho khách hàng.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="border-t border-white/10 py-4">
+            <div class="max-w-6xl mx-auto px-4 lg:px-8">
+                <p class="text-xs text-white/70 font-light">Bản quyền &copy; 2024 MyStorage. Bảo lưu mọi quyền.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        (function () {
+            const nav       = document.querySelector('nav');
+            const THRESHOLD = 60;
+            function applyScrollState() {
+                if (window.innerWidth >= 1024 && window.scrollY > THRESHOLD) {
+                    nav.classList.add('nav-scrolled');
+                } else {
+                    nav.classList.remove('nav-scrolled');
+                }
+            }
+            window.addEventListener('scroll', applyScrollState, { passive: true });
+            window.addEventListener('resize', applyScrollState);
+            applyScrollState();
+        })();
+    </script>
+
+    <script>
+        document.getElementById('partner-form').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            const name     = document.getElementById('f-name').value.trim();
+            const business = document.getElementById('f-business').value.trim();
+            const email    = document.getElementById('f-email').value.trim();
+            const phone    = document.getElementById('f-phone').value.trim();
+            const btn      = document.getElementById('f-submit');
+            const errMsg   = document.getElementById('f-error');
+
+            btn.disabled = true;
+            btn.textContent = 'Đang gửi…';
+            errMsg.classList.add('hidden');
+
+            const message = `🤝 *Đơn Đăng Ký Trigger Partner Mới*\n\n👤 *Họ tên:* ${name || '—'}\n🏢 *Loại hình:* ${business || '—'}\n📧 *Email:* ${email || '—'}\n📞 *Điện thoại:* ${phone || '—'}\n\n🌐 Nguồn: Trigger Partner Landing Page (VI)`;
+
+            try {
+                await fetch('https://chat.googleapis.com/v1/spaces/AAQAjFkirRY/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=gvdMdSnQA2vLdtzEzdnmBLjsGk4EQedp1mPGfLPoqWg', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ text: message })
+                });
+                document.getElementById('partner-form').classList.add('hidden');
+                document.getElementById('form-success').classList.remove('hidden');
+            } catch (err) {
+                errMsg.classList.remove('hidden');
+                btn.disabled = false;
+                btn.textContent = 'Đăng Ký Hợp Tác';
+            }
+        });
+    </script>
+
+</body>
+</html>
